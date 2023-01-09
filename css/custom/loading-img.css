@@ -1,0 +1,20 @@
+.loading-img {
+  background: url(https://s1.vika.cn/space/2023/01/03/bc351f958fab4640853c5193afefe0fe) no-repeat center center;
+  background-size: cover;
+}
+/*哔哩哔哩视频适配,因为这个css空间利用太少了，所以在这里放一些小的css*/
+.aspect-ratio {
+  position: relative;
+  width: 90%;
+  height: auto;
+  padding-bottom: 75%;
+  margin: 3% auto;
+  text-align: center;
+}
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 86%;
+  left: 0;
+  top: 0;
+}
